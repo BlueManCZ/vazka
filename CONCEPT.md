@@ -7,6 +7,7 @@ Vážní SW zajišťující komunikaci s váhou a dalšími periferiemi podle po
 Struktura:
 - vazka-server
   - vazka-scale - modul zajišťující obousměrnou komunikaci s váhou a poskytující jednotné modulární API pro různé druhy vah
+    
     Pro nastavený typ váhy vrací dostupné moduly/metody.
 
     Aktivní modul pro váhu implementuje specifika komunikace:
