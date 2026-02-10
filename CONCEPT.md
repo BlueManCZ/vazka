@@ -16,6 +16,7 @@ Struktura:
   - vazka-printer - modul pro tisk etiket, dokumentů nebo tisk do souboru
   - vazka-router - modul pro zrcadlení/přesměrování komunikace s váhou na další porty pomocí různých protokolů
   - vazka-led - modul pro integraci různých LED displejů zobrazujících aktuální váhu
+  - vazka-relay - modul pro spínání relé (např. semaforů, otevírání závory, atd).
 - vazka-client
 
 E.g. Zákazník potřebuje vytisknout etiketu v momentě, kdy se váha ustálí na nenulové hodnotě. Klient si vytvoří bind na server event `weight_fixed` a v momentě, kdy je event zachycen, tak za zavolá metodu serveru `print_data`, kterými server zahájí tisk etikety.
